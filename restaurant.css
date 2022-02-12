@@ -1,0 +1,119 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+#navigation
+{
+	margin-top: 85px;
+	
+}
+.row
+{
+	width: 100%;
+}
+#navigation a
+{
+	color: white;
+
+}
+
+
+#logo
+{
+	height: 200px;
+	width: 200px;
+}
+/*welcome carousel */
+#welcome
+{
+	text-align: left;
+	width: 40%;
+	float: left;
+	margin-bottom: 10%;
+	margin-right: 30%;
+	animation-timing-function: ease-out;
+	animation-name: welcome;
+	animation-duration: 1.5s;
+
+}
+
+@keyframes welcome{
+	from {
+		left: 0px;
+	}
+	to
+	{
+		right: 20px;
+	}
+}
+#welcome-text
+{
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	font-size: 60px;
+	color: #b37924;
+
+	
+}
+ .carousel img
+{
+	height: 700px;
+}
+.btn
+{
+	background-color: #b37924;
+	border: none;
+	  transition: transform .2s;
+	  margin-right: 2%;
+}
+.btn:hover
+{
+	transform: scale(1.1);
+}
+.icons
+{
+	background-color: #b37924;
+	border-bottom: 3px #5c3613 solid;
+	border-top: 3px #5c3613 solid;
+	height: 30%;
+}
+.icons span
+{
+	margin-top: 200px;
+
+}
+.icons img
+{
+	border: black 3px solid;
+	padding: 20px;
+	margin-top: 100px;
+
+}
+
+footer
+{
+	height: 200px;
+}
+footer ul li
+{
+	margin-top: 90px;
+}
+footer p a span
+{
+	float: right;
+	margin-right: 20px;
+	font-size: 25px;
+}
+.navbar-nav li a
+{
+	margin-right: 20px;
+}
+#menu
+{
+	background-color: rgb(199, 148, 66);
+	box-shadow: 5px 5px 8px black;
+}
