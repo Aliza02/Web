@@ -56,13 +56,34 @@
 	font-weight: bold;
 	font-size: 60px;
 	color: #b37924;
-
-	
 }
  .carousel img
 {
-	height: 700px;
+	height: 650px;
 }
+@media(max-width: 722px)
+{
+	#welcome{
+		width: 40%;
+		height: 100%;
+		margin-top: 2em;
+		margin-bottom: 0%;
+		
+	}
+	#welcome .btn
+	{
+			margin-top: 2%;
+			width: 80%;
+	}
+	
+}
+@media(min-width: 300px)
+{
+}
+
+
+
+
 .btn
 {
 	background-color: #b37924;
