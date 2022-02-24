@@ -109,7 +109,7 @@
 }
 .icons
 {
-	background-color: #b37924;
+	background-color: #bb8a40;
 	border-bottom: 3px #5c3613 solid;
 	border-top: 3px #5c3613 solid;
 	height: 30%;
@@ -127,7 +127,15 @@
 	margin-top: 100px;
 
 }
+#menu-section
+{
+	background-color:#31291c;
+}
+#menuid
+{
+	margin-top: 100px;
 
+}
 #menuid h1
 {
 		font-family: 'Dancing Script', cursive;
@@ -141,6 +149,7 @@
  	 border-bottom-left-radius: -400px;
  	 
  }
+
 footer
 {
 	height: 200px;
