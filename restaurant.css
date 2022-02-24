@@ -149,6 +149,43 @@
  	 border-bottom-left-radius: -400px;
  	 
  }
+ #service-header
+ {
+	 margin-top: -100px;
+	 margin-left: 100px;
+	  background-color:#131211;
+	 opacity: 0.8;
+	 width: 600px;
+	 height: 400px;
+	
+	
+ }
+
+ #service-header h1{
+	color: #b37924;
+	font-family: 'Dancing Script', cursive;
+   font-weight: bold;
+   }
+ #service
+ {
+	 background-color:#413626;
+ }
+ #div-img1, #div-img2
+ {
+	 margin-top: 260px;
+	 margin-right: -80px;
+ }
+ #div-img3
+ {
+	 margin-left: 900px;
+	 margin-top: -150px;
+	 
+ }
+ #div-img2
+ {
+	 z-index: 2;
+	 opacity:0.6;
+ }
 
 footer
 {
