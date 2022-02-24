@@ -1,0 +1,98 @@
+*
+{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+body
+{
+	background-image: url(food.jpg);
+}
+
+#header-nav
+{
+	background-color: #3283a8;
+	box-shadow:10px 5px 5px white;
+	
+}
+h1
+{
+	color: white;
+}
+.navbar-header
+{
+	width: 100%;
+}
+.container
+{
+	padding: 20px 0px 20px 0px;
+	margin:0px;
+
+}
+#menu
+{
+	padding:10px 0px 10px 0px;
+	background-color: black;
+	
+}
+#chicken, #beef , #sushi
+{
+	background-color: #3390b4;
+	color: white;
+	padding: 10px 0px 10px 0px;
+	outline-style:solid;
+	outline-color:black;
+	outline-width: 5px;
+	font-size: 25px;
+	box-shadow:10px 10px 5px white;
+
+}
+
+div
+{
+	padding: 20px 0px 20px 0px;
+	margin: 0px 20px 0px 20px;
+
+
+}
+div>a
+{
+	text-decoration: none;
+	color: white;
+}
+p
+{
+	padding: 0px 20px 0px 20px;
+}
+button
+{
+	float: right;
+}
+#menulist
+{
+	padding: 0px;
+	margin: 0px;
+	margin-top: 50px;
+
+}
+
+li
+{
+	list-style-type: none;
+	text-align: center;
+border-bottom:  2px solid white;
+width:100%;
+color: white;
+
+
+	
+	font-size: 25px;
+	
+	
+}
+
+#menulist a
+{
+	text-decoration: none;
+	color: black;
+}

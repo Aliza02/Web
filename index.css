@@ -1,0 +1,178 @@
+*
+{
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body
+{
+	width: 100%;
+	background-color: grey;
+
+}
+h1
+{
+	text-align: center;
+	margin-top: 8%;
+}
+ h3
+  {
+  	float:right;
+  	margin-top: 0%;
+  	margin-left: 0%;
+  	border:5px solid black;
+  	background-color:blue;
+  	width: 150px;
+  	text-align: center;
+  	position: relative;
+  	bottom:12px;
+  	left:13px;
+  }
+  p
+  {
+  	font-weight:bold;
+  	clear:right;
+
+  }
+  section
+  {
+  	border:5px solid black;
+  		padding: 10px;
+  	margin-left: 4%;
+  	margin-right: 4%;
+  	    margin-bottom: 20px;
+  
+  }
+   #beef
+  {
+  	background-color:yellow;
+  }
+  #sushi
+  {
+  	background-color: maroon;
+  	color: white;
+  }
+  #chicken
+  {
+  	background-color: dodgerblue;
+  }
+
+@media(min-width: 992px)
+{
+	.cl-lg-1, .cl-lg-2, .cl-lg-3, .cl-lg-4, .cl-lg-5, .cl-lg-6, .cl-lg-7, .cl-lg-8, .cl-lg-9,.cl-lg-10,.cl-lg-11,.cl-lg-12
+	{
+		float: left;
+		border:5px solid black;
+	}
+
+	  .cl-lg-1 {
+    width: 8.33%;
+  }
+  .cl-lg-2 {
+    width: 16.66%;
+  }
+  .cl-lg-3 {
+    width: 25%;
+  }
+  .cl-lg-4 {
+    width: 33.33%;
+  }
+  .cl-lg-5 {
+    width: 41.66%;
+  }
+  .cl-lg-6 {
+    width: 50%;
+  }
+  .cl-lg-7 {
+    width: 58.33%;
+  }
+  .cl-lg-8 {
+    width: 66.66%;
+  }
+  .cl-lg-9 {
+    width: 74.99%;
+  }
+  .cl-lg-10 {
+    width: 83.33%;
+  }
+  .cl-lg-11 {
+    width: 91.66%;
+  }
+  .cl-lg-12 {
+    width: 100%;
+
+  }
+ 
+ 
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .cl-md-1, .cl-md-2, .cl-md-3, .cl-md-4, .cl-md-5, .cl-md-6, .cl-md-7, .cl-md-8, .cl-md-9, .cl-md-10, .cl-md-11, .cl-md-12 {
+    float: left;
+    border: 5px solid black;
+  }
+  .cl-md-1 {
+    width: 8.33%;
+  }
+  .cl-md-2 {
+    width: 16.66%;
+  }
+  .cl-md-3 {
+    width: 25%;
+  }
+  .cl-md-4 {
+    width: 33.33%;
+  }
+  .cl-md-5 {
+    width: 41.66%;
+  }
+  .cl-md-6 {
+    width: 50%;
+  }
+  .cl-md-7 {
+    width: 58.33%;
+  }
+  .cl-md-8 {
+    width: 66.66%;
+  }
+  .cl-md-9 {
+    width: 74.99%;
+  }
+  .cl-md-10 {
+    width: 83.33%;
+  }
+  .cl-md-11 {
+    width: 91.66%;
+  }
+  .cl-md-12 {
+    width: 100%;
+  }
+   .cl-md-6
+  {
+  	border:5px solid black;
+  		padding: 10px;
+  	margin-left: 3%;
+  	    width:43%;
+  
+  }
+  #sushi
+  {
+  	width: 93%;
+
+  	background-color: maroon;
+  	color: white;
+  	
+  }
+  #sushi h3
+  {
+  	position: relative;
+  	left:63px;
+  }
+  #beef
+  {
+  	background-color:yellow;
+  }
+  #chicken
+  {
+  	background-color: dodgerblue;
+  }
+
+}

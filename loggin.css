@@ -1,0 +1,68 @@
+body
+{
+	background-image: linear-gradient(to right,rgb(66, 41, 38),rgb(20, 23, 21));
+
+}
+#logintext
+{
+	height:560px;
+	background-color: rgb(29, 31, 29);
+	margin-top: 120px;
+	font-family: 'Roboto Serif', sans-serif;
+
+}
+#text 
+{
+	margin-top: 30px;
+	padding: 20px 20px 20px 20px;
+}
+#text a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	padding-right: 5px;
+}
+#loginarea img
+{
+	height:560px;
+	margin-top: 120px;
+	margin-left: -10px;
+}
+@media(max-width: 1200px)
+{
+	.img-responsive
+	{
+		width: 100%;
+	}
+}
+
+#logo
+{
+	margin-left: 50px;
+}
+#signin, #signup
+{
+	height:560px;
+	background-color: snow; 
+	/*width:550px;*/
+	margin-top: 120px;
+	font-weight: bold;
+	color: rgb(29, 31, 29);
+	font-family: 'Montserrat', sans-serif;
+}
+#signin input, #signup input
+{
+	background-color: snow;
+	border: none;
+	border-bottom:3px solid black;
+	outline: none;
+	width: 70%;
+
+}
+#signin i{
+	font-size: 30px;
+	border-bottom: 3px solid black;
+
+
+}

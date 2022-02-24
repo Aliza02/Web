@@ -1,0 +1,20 @@
+*
+{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+.header-nav
+{
+	width: 100%;
+}
+
+#logo
+{
+	width: 200px;
+	height: 200px;
+}
+li
+{
+	color:white;
+}
